@@ -1,0 +1,12 @@
+#mybatis-plus:
+#  mapper-locations: classpath*:mappers/*Mapper.xml
+
+spring:
+  application:
+    name: micro-web
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url:  jdbc:mysql://localhost:3306/springboot-demo?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=true&nullCatalogMeansCurrent=true
+    username: root #数据库用户名
+    password: root #数据库密码
+    driver-class-name: com.mysql.cj.jdbc.Driver
